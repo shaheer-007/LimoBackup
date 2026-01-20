@@ -423,13 +423,16 @@
     }
 
     .about-two__img {
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .about-two__content {
         margin-top: 250px;
         max-width: 800px;
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .testimonial-two__content {
@@ -614,11 +617,15 @@
     .about-three__img {
         max-width: 650px;
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .about-three__content {
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 70px;
+        max-width: 800px;
     }
 
     .tab-content-box-item-img {
@@ -863,13 +870,16 @@
     }
 
     .about-two__img {
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .about-two__content {
         margin-top: 250px;
         max-width: 800px;
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .service-two__single-content {
@@ -1116,11 +1126,15 @@
     .about-three__img {
         max-width: 650px;
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .about-three__content {
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 70px;
+        max-width: 800px;
     }
 
     .tab-content-box-item-img {
@@ -1619,11 +1633,20 @@
     }
 
     .about-two__img {
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-two__img1 {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .about-two__content {
         margin-top: 65px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
     }
 
     .about-two__img2 {
@@ -1633,6 +1656,8 @@
         margin-top: 20px;
         max-width: 300px;
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .about-two__img2 img {
@@ -2241,8 +2266,10 @@
     }
 
     .about-three__content {
-        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 40px;
+        max-width: 800px;
     }
 
     .about-three__content-list ul li {
@@ -2266,9 +2293,17 @@
         display: block;
     }
 
+    .about-three__img-box ul li .img-box {
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        /* Optional: adjust based on design */
+    }
+
     .about-three__experience-box {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 30px;
         top: 0px;
         max-width: 300px;

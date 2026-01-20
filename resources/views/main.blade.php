@@ -76,14 +76,19 @@
                 <div class="animation-preloader">
                     <div class="spinner"></div>
                     <div class="txt-loading">
+                        <span data-text-preloader="y" class="letters-loading"> y </span>
+                        <span data-text-preloader="a" class="letters-loading"> a </span>
+                        <span data-text-preloader="z" class="letters-loading"> z </span>
+                        <span data-text-preloader="&nbsp;" class="letters-loading"> &nbsp; </span>
                         <span data-text-preloader="l" class="letters-loading"> l </span>
+                        <span data-text-preloader="i" class="letters-loading"> i </span>
+                        <span data-text-preloader="m" class="letters-loading"> m </span>
                         <span data-text-preloader="o" class="letters-loading"> o </span>
-                        <span data-text-preloader="g" class="letters-loading"> g </span>
-                        <span data-text-preloader="i" class="letters-loading"> i </span>
+                        <span data-text-preloader="u" class="letters-loading"> u </span>
                         <span data-text-preloader="s" class="letters-loading"> s </span>
-                        <span data-text-preloader="t" class="letters-loading"> t </span>
                         <span data-text-preloader="i" class="letters-loading"> i </span>
-                        <span data-text-preloader="q" class="letters-loading"> q </span>
+                        <span data-text-preloader="n" class="letters-loading"> n </span>
+                        <span data-text-preloader="e" class="letters-loading"> e </span>
                     </div>
                 </div>
             </div>
@@ -104,7 +109,7 @@
                 <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
                 <div class="logo-box">
-                    <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png"
+                    <a href="/" aria-label="logo image"><img src="{{ asset('assets/images/resources/logo.svg') }}"
                             width="150" alt="" /></a>
                 </div>
                 <!-- /.logo-box -->
@@ -114,19 +119,18 @@
                 <ul class="mobile-nav__contact list-unstyled">
                     <li>
                         <i class="fa fa-envelope"></i>
-                        <a href="mailto:needhelp@logistiq.com">needhelp@logistiq.com</a>
+                        <a href="mailto:{{ env('EMAIL') }}">{{ env('EMAIL') }}</a>
                     </li>
                     <li>
                         <i class="icon-phone"></i>
-                        <a href="tel:666-888-0000">666 888 0000</a>
+                        <a href="tel:{{ env('CALL') }}">{{ env('NUMBER') }}</a>
                     </li>
                 </ul><!-- /.mobile-nav__contact -->
                 <div class="mobile-nav__top">
                     <div class="mobile-nav__social">
-                        <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-facebook-square"></a>
-                        <a href="#" class="fab fa-pinterest-p"></a>
-                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="https://www.facebook.com/people/Yaz-Luxury-Transportation/61583407544573/" target="_blank" class="fab fa-facebook-square"></a>
+                        <a href="https://www.linkedin.com/company/yaz-luxury-transportation/" target="_blank" class="fab fa-linkedin-in"></a>
+                        <a href="https://www.youtube.com/@Yazluxurytransportation" target="_blank" class="fab fa-youtube"></a>
                     </div><!-- /.mobile-nav__social -->
                 </div><!-- /.mobile-nav__top -->
 

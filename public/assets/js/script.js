@@ -40,8 +40,8 @@
         if ($(this).next().val() > 1) {
             if ($(this).next().val() > 1)
                 $(this)
-                .next()
-                .val(+$(this).next().val() - 1);
+                    .next()
+                    .val(+$(this).next().val() - 1);
         }
     });
 
@@ -424,8 +424,8 @@
                 var percent = el.data("percent");
                 $(el).css("width", percent).addClass("counted");
             }, {
-                accY: -50,
-            }
+            accY: -50,
+        }
         );
     }
 
@@ -438,8 +438,8 @@
                     $(this).css("width", progressWidth + "%");
                 });
             }, {
-                accY: 0,
-            }
+            accY: 0,
+        }
         );
     }
 
@@ -469,8 +469,8 @@
                     });
                 }
             }, {
-                accY: 0,
-            }
+            accY: 0,
+        }
         );
     }
 
@@ -526,12 +526,22 @@
                 },
                 submitHandler: function (form) {
                     // sending value with ajax request
-                    $.post($(form).attr("action"), $(form).serialize(), function (response) {
-                        $(form).parent().find(".result").append(response);
-                        $(form).find('input[type="text"]').val("");
-                        $(form).find('input[type="email"]').val("");
-                        $(form).find("textarea").val("");
-                    });
+                    $.post($(form).attr("action"), $(form).serialize())
+                        .done(function (response) {
+                            if (response.success) {
+                                $(form).parent().find(".result").html('<h5 class="text-success mt-3">' + response.message + '</h5>');
+                                $(form)[0].reset();
+                            } else {
+                                $(form).parent().find(".result").html('<h5 class="text-danger mt-3">' + response.message + '</h5>');
+                            }
+                        })
+                        .fail(function (xhr) {
+                            var errorMsg = 'Something went wrong. Please try again.';
+                            if (xhr.responseJSON && xhr.responseJSON.message) {
+                                errorMsg = xhr.responseJSON.message;
+                            }
+                            $(form).parent().find(".result").html('<h5 class="text-danger mt-3">' + errorMsg + '</h5>');
+                        });
                     return false;
                 },
             });
@@ -708,8 +718,8 @@
                 $("html, body")
                     .stop()
                     .animate({
-                            scrollTop: $(target.attr("href")).offset().top - headerH + "px",
-                        },
+                        scrollTop: $(target.attr("href")).offset().top - headerH + "px",
+                    },
                         1200,
                         "easeInOutExpo"
                     );

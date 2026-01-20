@@ -3,9 +3,6 @@
     <div class="footer-one__pattern">
         <img src="assets/images/pattern/footer-v1-pattern.png" alt="#">
     </div>
-    <div class="shape3 float-bob-y">
-        <img src="assets/images/shapes/footer-v2-shape3.png" alt="">
-    </div>
     <div class="footer-one__top">
         <div class="container">
 
@@ -18,11 +15,11 @@
                 </div>
                 <div class="footer-one--two__cta-inner">
                     <div class="text-box">
-                        <h2>Efficient, Safe, & Swift Logistics Solution!</h2>
+                        <h2>Luxury, Comfort, & Reliable Limo Service!</h2>
                     </div>
 
                     <div class="btn-box">
-                        <a class="thm-btn" href="contact.html">Contact with Us
+                        <a class="thm-btn" href="#">Contact with Us
                             <i class="icon-right-arrow21"></i>
                             <span class="hover-btn hover-bx"></span>
                             <span class="hover-btn hover-bx2"></span>
@@ -38,21 +35,11 @@
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                         <div class="footer-widget__single footer-one__about">
                             <div class="footer-one__about-logo">
-                                <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a>
+                                <a href="/"><img src="{{ asset('assets/images/resources/logo.svg') }}" alt=""></a>
                             </div>
-                            <p class="footer-one__about-text">Logistic service provider company plays a
-                                pivotal role in the global supply chain logistic service provider.</p>
+                            <p class="footer-one__about-text">Yaz Lamousine offers premium limousine services in
+                                Nashville, delivering comfort, elegance, and reliability for every occasion.</p>
 
-                            <div class="footer-one__about-contact-info">
-                                <div class="icon">
-                                    <span class="icon-support"></span>
-                                </div>
-
-                                <div class="text-box">
-                                    <p>Make a Call</p>
-                                    <h4><a href="tel:+1234567890">+880 123 456 789</a></h4>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -63,14 +50,16 @@
                             </div>
 
                             <ul class="footer-one__quick-links-list">
-                                <li><a href="index.html"><span class="icon-right-arrow1"></span> Home</a></li>
-                                <li><a href="about.html"><span class="icon-right-arrow1"></span> About Us</a>
+                                <li><a href="/"><span class="icon-right-arrow1"></span> Home</a></li>
+                                <li><a href="{{ route('book') }}"><span class="icon-right-arrow1"></span> Book Online</a>
                                 </li>
-                                <li><a href="service.html"><span class="icon-right-arrow1"></span> Service</a>
+                                <li><a href="{{ route('about') }}"><span class="icon-right-arrow1"></span> About Us</a>
                                 </li>
-                                <li><a href="project.html"><span class="icon-right-arrow1"></span> Latest
-                                        Project</a></li>
-                                <li><a href="contact.html"><span class="icon-right-arrow1"></span> Contact
+                                <li><a href="{{ route('services') }}"><span class="icon-right-arrow1"></span> Our
+                                        Services</a></li>
+                                <li><a href="{{ route('fleets') }}"><span class="icon-right-arrow1"></span> Our Fleet</a>
+                                </li>
+                                <li><a href="{{ route('contact') }}"><span class="icon-right-arrow1"></span> Contact
                                         Us</a></li>
                             </ul>
                         </div>
@@ -89,27 +78,32 @@
                                             <span class="icon-address"></span>
                                         </div>
                                         <div class="text-box">
-                                            <p>3060 Commercial Street Road <br> Fratton, Australia</p>
+                                            <p>
+                                                2 International Plaza #214, Nashville, TN 37217, US
+                                            </p>
                                         </div>
                                     </li>
 
                                     <li>
-                                        <div class="icon">
-                                            <span class="icon-email"></span>
-                                        </div>
-                                        <div class="text-box">
-                                            <p><a href="mailto:yourmail@email.com">support@logistra.com</a></p>
-                                            <p><a href="mailto:yourmail@email.com">info@logistra.com</a></p>
-                                        </div>
+                                        <a href="mailto:{{ env('EMAIL') }}">
+                                            <div class="icon">
+                                                <span class="icon-email"></span>
+                                            </div>
+                                            <div class="text-box">
+                                                <p>{{ env('EMAIL') }}</p>
+                                            </div>
+                                        </a>
                                     </li>
 
                                     <li>
-                                        <div class="icon">
-                                            <span class="icon-phone"></span>
-                                        </div>
-                                        <div class="text-box">
-                                            <p><a href="tel:1234567890">+880 123 456 789 </a></p>
-                                        </div>
+                                        <a href="tel:{{ env('CALL') }}">
+                                            <div class="icon">
+                                                <span class="icon-phone"></span>
+                                            </div>
+                                            <div class="text-box">
+                                                <p>{{ env('NUMBER') }}</p>
+                                            </div>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -117,25 +111,27 @@
                     </div>
 
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                        <div class="footer-widget__single footer-one__subscribe">
+                        <div class="footer-widget__single footer-one__social">
                             <div class="title">
-                                <h2>Subscribe Us <span class="icon-plane3"></span></h2>
+                                <h2>Follow Us <span class="icon-plane3"></span></h2>
                             </div>
 
-                            <p class="footer-one__subscribe-text">Sign up for alerts, our latest blogs, <br>
-                                thoughts, and insights</p>
+                            <p class="footer-one__subscribe-text mb-4">Stay connected with us on social media for the
+                                latest
+                                updates, blogs, and insights.</p>
 
-                            <div class="footer-one__subscribe-form">
-                                <form class="subscribe-form" action="#">
-                                    <input type="email" name="email" placeholder="Your E-mail">
-                                    <button type="submit" class="thm-btn">Subcribe
-                                        <i class="icon-right-arrow21"></i>
-                                        <span class="hover-btn hover-bx"></span>
-                                        <span class="hover-btn hover-bx2"></span>
-                                        <span class="hover-btn hover-bx3"></span>
-                                        <span class="hover-btn hover-bx4"></span>
-                                    </button>
-                                </form>
+                            <div class="footer-one__social-links">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.youtube.com/@Yazluxurytransportation" target="_blank"><span class="fab fa-youtube"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/people/Yaz-Luxury-Transportation/61583407544573/" target="_blank"><span class="fab fa-facebook-f"></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/yaznashvillelimo/" target="_blank"><span class="fab fa-linkedin"></span></a>
+                                    </li>
+                                </ul>
                             </div>
 
                         </div>
@@ -150,26 +146,7 @@
 
             <div class="footer-one__bottom-inner">
                 <div class="footer-one__bottom-text">
-                    <p>© Copyright 2025 <a href="index.html">Logistiq.</a> All Rights Reserved</p>
-                </div>
-
-                <div class="footer-one__social-links">
-                    <ul>
-                        <li>
-                            <a href="#"><span class="icon-facebook-f"></span></a>
-                        </li>
-
-                        <li>
-                            <a href="#"><span class="icon-instagram"></span></a>
-                        </li>
-
-                        <li>
-                            <a href="#"><span class="icon-twitter1"></span></a>
-                        </li>
-                        <li>
-                            <a href="#"><span class="icon-linkedin"></span></a>
-                        </li>
-                    </ul>
+                    <p>© Copyright {{ date('Y') }} - Yaz Limousine All Rights Reserved. A website by <a href="https://bmgroupinc.com" target="_blank" style="color: #e8b470"><b style=" -webkit-background-clip: text;color: #e8b470 !important; text-decoration: none;">BM_IT</b></a></p>
                 </div>
             </div>
         </div>

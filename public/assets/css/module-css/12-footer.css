@@ -80,7 +80,8 @@ Footer One
 }
 
 .footer-one__about-logo a img {
-    width: 100%;
+    width: 80%;
+    margin-top: -25px;
 }
 
 .footer-one__about-text {

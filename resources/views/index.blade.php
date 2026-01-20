@@ -205,7 +205,7 @@
                                 <div class="about-three__experience-box">
                                     <div class="count-text-box count-box">
                                         <div class="count-number">
-                                            <h3 class="count-text" data-stop="25" data-speed="1500">00</h3>
+                                            <h3 class="count-text" data-stop="5" data-speed="1500">00</h3>
                                             <span class="plus">+</span>
                                         </div>
                                         <h4>Years of experience</h4>
@@ -237,14 +237,14 @@
                             </div>
                         </div>
                         <h2 class="sec-title__title tg-element-title">Leading Luxury Limousine <br>
-                            And Transport <span>Agency</span>
+                            And Transport <span>Company</span>
                         </h2>
                     </div>
 
                     <div class="about-three__content-text">
                         <p>
-                            Yaz Lamousine is Nashville’s trusted name in premium transportation. We specialize in
-                            creating elegant, comfortable, and reliable rides for every occasion—whether it’s a wedding,
+                            Yaz Lamousine is Tennessee’s trusted name in premium transportation. We specialize in
+                            creating elegant, comfortable, and reliable rides for every occasion whether it’s a wedding,
                             corporate event, or a night out in the city. Our mission is to make every journey
                             unforgettable.
                         </p>
@@ -280,7 +280,7 @@
 
                     <div class="d-flex gap-3">
                         <div class="about-three__content-btn">
-                            <a class="thm-btn" href="#">More About Us
+                            <a class="thm-btn" href="{{ route('about') }}">More About Us
                                 <i class="icon-right-arrow21"></i>
                                 <span class="hover-btn hover-bx"></span>
                                 <span class="hover-btn hover-bx2"></span>
@@ -289,7 +289,7 @@
                             </a>
                         </div>
                         <div class="about-three__content-btn">
-                            <a class="thm-btn-reverse" href="#"> Contact Us
+                            <a class="thm-btn-reverse" href="#"> Book Online
                                 <i class="icon-right-arrow21"></i>
                                 <span class="hover-btn hover-bx"></span>
                                 <span class="hover-btn hover-bx2"></span>
@@ -307,7 +307,7 @@
 <!--End About Three-->
 
 <!--Start Service Two-->
-<section class="service-two">
+<section style="margin-bottom: 120px;">
     <div class="container">
         <div class="sec-title center text-center tg-heading-subheading animation-style2">
             <div class="sec-title__tagline">
@@ -338,13 +338,12 @@
                         <span class="icon-worldwide-shipping"></span>
                     </div>
                     <div class="service-two__single-content-inner text-center">
-                        <h2><a href="international-transport.html">International <br>
-                                Transport</a></h2>
-                        <p>A logistic service provider company plays a pivotal role in the global supply
-                            chain logistic service.</p>
+                        <h2><a>Corporate <br>
+                                Transportation</a></h2>
+                        <p>We provide a vast array of executive vehicles. Professional chauffeurs ensure smooth,
+                            punctual travel for business meetings.</p>
                         <div class="btn-box">
-                            <a href="international-transport.html">Read More <span
-                                    class="icon-right-arrow21"></span></a>
+                            <a href="">Book Online <span class="icon-right-arrow21"></span></a>
                         </div>
                     </div>
                 </div>
@@ -364,13 +363,12 @@
                         <span class="icon-shipment"></span>
                     </div>
                     <div class="service-two__single-content-inner text-center">
-                        <h2><a href="international-transport.html">Local Truck <br>
-                                Transport</a></h2>
-                        <p>A logistic service provider company plays a pivotal role in the global supply
-                            chain logistic service.</p>
+                        <h2><a>Hourly <br>
+                                Limo</a></h2>
+                        <p>We deliver hourly limo services for total flexibility. Enjoy comfort and convenience with
+                            professional chauffeurs whenever needed.</p>
                         <div class="btn-box">
-                            <a href="international-transport.html">Read More <span
-                                    class="icon-right-arrow21"></span></a>
+                            <a href="#">Book Online <span class="icon-right-arrow21"></span></a>
                         </div>
                     </div>
                 </div>
@@ -390,13 +388,12 @@
                         <span class="icon-courier-services"></span>
                     </div>
                     <div class="service-two__single-content-inner text-center">
-                        <h2><a href="international-transport.html">Fast Personal <br>
-                                Delivery </a></h2>
-                        <p>A logistic service provider company plays a pivotal role in the global supply
-                            chain logistic service.</p>
+                        <h2><a>Airport <br>
+                                Transfer </a></h2>
+                        <p>We offer reliable airport rides in luxury vehicles. Timely pickups, professional chauffeurs,
+                            and smooth drop-offs guarantee stress-free travel experiences.</p>
                         <div class="btn-box">
-                            <a href="international-transport.html">Read More <span
-                                    class="icon-right-arrow21"></span></a>
+                            <a href="#">Read More <span class="icon-right-arrow21"></span></a>
                         </div>
                     </div>
                 </div>
@@ -416,13 +413,13 @@
                         <span class="icon-worldwide-shipping"></span>
                     </div>
                     <div class="service-two__single-content-inner text-center">
-                        <h2><a href="international-transport.html">International <br>
-                                Transport</a></h2>
-                        <p>A logistic service provider company plays a pivotal role in the global supply
-                            chain logistic service.</p>
+                        <h2><a>Group <br>
+                                Transportation</a></h2>
+                        <p>Yaz Limousine Transportation Corp ensures comfortable group travel with spacious sprinters,
+                            vans, and buses. Safe, reliable, and stylish rides for all to take luxury to the next
+                            level.</p>
                         <div class="btn-box">
-                            <a href="international-transport.html">Read More <span
-                                    class="icon-right-arrow21"></span></a>
+                            <a href="#">Read More <span class="icon-right-arrow21"></span></a>
                         </div>
                     </div>
                 </div>
@@ -442,13 +439,12 @@
                         <span class="icon-shipment"></span>
                     </div>
                     <div class="service-two__single-content-inner text-center">
-                        <h2><a href="international-transport.html">Local Truck <br>
-                                Transport</a></h2>
-                        <p>A logistic service provider company plays a pivotal role in the global supply
-                            chain logistic service.</p>
+                        <h2><a>Wedding <br>
+                                Limo</a></h2>
+                        <p>Yaz Limousine Transportation Corp makes weddings unforgettable with elegant limousines.
+                            Professional chauffeurs ensure stylish, timely arrivals for couples and guests.</p>
                         <div class="btn-box">
-                            <a href="international-transport.html">Read More <span
-                                    class="icon-right-arrow21"></span></a>
+                            <a href="#">Book Online <span class="icon-right-arrow21"></span></a>
                         </div>
                     </div>
                 </div>
@@ -468,13 +464,12 @@
                         <span class="icon-courier-services"></span>
                     </div>
                     <div class="service-two__single-content-inner text-center">
-                        <h2><a href="international-transport.html">Fast Personal <br>
-                                Delivery </a></h2>
-                        <p>A logistic service provider company plays a pivotal role in the global supply
-                            chain logistic service.</p>
+                        <h2><a>Wine <br>
+                                Tours </a></h2>
+                        <p>Yaz Limousine Transportation Corp creates memorable wine tours with luxury vehicles.
+                            Chauffeured rides ensure safety, comfort, and stylish vineyard experiences.</p>
                         <div class="btn-box">
-                            <a href="international-transport.html">Read More <span
-                                    class="icon-right-arrow21"></span></a>
+                            <a href="#">Book Online <span class="icon-right-arrow21"></span></a>
                         </div>
                     </div>
                 </div>
@@ -494,13 +489,12 @@
                         <span class="icon-worldwide-shipping"></span>
                     </div>
                     <div class="service-two__single-content-inner text-center">
-                        <h2><a href="international-transport.html">International <br>
-                                Transport</a></h2>
-                        <p>A logistic service provider company plays a pivotal role in the global supply
-                            chain logistic service.</p>
+                        <h2><a>City <br>
+                                Tours</a></h2>
+                        <p>Yaz Limousine Transportation Corp offers guided city tours worldwide. Luxury sedans, SUVs,
+                            and buses provide comfortable travel for sightseeing adventures.</p>
                         <div class="btn-box">
-                            <a href="international-transport.html">Read More <span
-                                    class="icon-right-arrow21"></span></a>
+                            <a href="#">Book Online <span class="icon-right-arrow21"></span></a>
                         </div>
                     </div>
                 </div>
@@ -520,13 +514,12 @@
                         <span class="icon-shipment"></span>
                     </div>
                     <div class="service-two__single-content-inner text-center">
-                        <h2><a href="international-transport.html">Local Truck <br>
-                                Transport</a></h2>
-                        <p>A logistic service provider company plays a pivotal role in the global supply
-                            chain logistic service.</p>
+                        <h2><a>Prom <br>
+                                Limo</a></h2>
+                        <p>Yaz Limousine Transportation Corp provides stylish prom limousines for students. Safe,
+                            reliable service ensures unforgettable experiences throughout the evening.</p>
                         <div class="btn-box">
-                            <a href="international-transport.html">Read More <span
-                                    class="icon-right-arrow21"></span></a>
+                            <a href="#">Book Online <span class="icon-right-arrow21"></span></a>
                         </div>
                     </div>
                 </div>
@@ -546,13 +539,12 @@
                         <span class="icon-courier-services"></span>
                     </div>
                     <div class="service-two__single-content-inner text-center">
-                        <h2><a href="international-transport.html">Fast Personal <br>
-                                Delivery </a></h2>
-                        <p>A logistic service provider company plays a pivotal role in the global supply
-                            chain logistic service.</p>
+                        <h2><a>Night <br>
+                                Out </a></h2>
+                        <p>Yaz Limousine Transportation Corp offers luxury limousines for nightlife. Professional
+                            chauffeurs provide safe, stylish rides for concerts, clubs, or events.</p>
                         <div class="btn-box">
-                            <a href="international-transport.html">Read More <span
-                                    class="icon-right-arrow21"></span></a>
+                            <a href="#">Book Online <span class="icon-right-arrow21"></span></a>
                         </div>
                     </div>
                 </div>
@@ -564,559 +556,192 @@
 </section>
 <!--End Service Two-->
 
-<!--Start Team One-->
-<section class="team-one">
+<!--Start Fleet One-->
+<section class="service-two">
+    <div class="service-one__pattern">
+    </div>
     <div class="container">
         <div class="sec-title center text-center tg-heading-subheading animation-style2">
             <div class="sec-title__tagline">
                 <div class="line"></div>
                 <div class="text tg-element-title">
-                    <h4>Team member</h4>
+                    <h4>Our Service</h4>
                 </div>
                 <div class="icon">
                     <span class="icon-plane2 float-bob-x3"></span>
                 </div>
             </div>
-            <h2 class="sec-title__title tg-element-title">Introduce Our Expert <br>
-                Logistic <span>Teams</span></h2>
+            <h2 class="sec-title__title tg-element-title">Arrive in Style with Our
+                <br> Premium <span>Limousines</span>
+            </h2>
         </div>
 
-        <div class="team-one__carousel owl-carousel owl-theme owl-dot-style1">
-            <!--Start Team One Single-->
-            <div class="team-one__single">
-                <div class="team-one__single-img">
-                    <div class="inner">
-                        <img src="assets/images/team/team-v1-img1.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="team-one__single-content">
-                    <ul class="social-links">
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter1"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                        <li><a href="#"><span class="icon-facebook-f"></span></a></li>
-                    </ul>
-                    <span>FOUNDER</span>
-                    <h2><a href="team-details.html">Courtney Henry</a></h2>
-                    <p>Logistic service provider company plays a pivotal role in the global supply chain
-                    </p>
-                    <div class="btn-box">
-                        <a href="contact.html">Contact Me <i class="icon-right-arrow21"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!--End Team One Single-->
-
-            <!--Start Team One Single-->
-            <div class="team-one__single">
-                <div class="team-one__single-img">
-                    <div class="inner">
-                        <img src="assets/images/team/team-v1-img2.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="team-one__single-content">
-                    <ul class="social-links">
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter1"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                        <li><a href="#"><span class="icon-facebook-f"></span></a></li>
-                    </ul>
-                    <span>FOUNDER</span>
-                    <h2><a href="team-details.html">Jane Cooper</a></h2>
-                    <p>Logistic service provider company plays a pivotal role in the global supply chain
-                    </p>
-                    <div class="btn-box">
-                        <a href="contact.html">Contact Me <i class="icon-right-arrow21"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!--End Team One Single-->
-
-            <!--Start Team One Single-->
-            <div class="team-one__single">
-                <div class="team-one__single-img">
-                    <div class="inner">
-                        <img src="assets/images/team/team-v1-img3.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="team-one__single-content">
-                    <ul class="social-links">
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter1"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                        <li><a href="#"><span class="icon-facebook-f"></span></a></li>
-                    </ul>
-                    <span>FOUNDER</span>
-                    <h2><a href="team-details.html">Marvin McKinney</a></h2>
-                    <p>Logistic service provider company plays a pivotal role in the global supply chain
-                    </p>
-                    <div class="btn-box">
-                        <a href="contact.html">Contact Me <i class="icon-right-arrow21"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!--End Team One Single-->
-
-            <!--Start Team One Single-->
-            <div class="team-one__single">
-                <div class="team-one__single-img">
-                    <div class="inner">
-                        <img src="assets/images/team/team-v1-img1.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="team-one__single-content">
-                    <ul class="social-links">
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter1"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                        <li><a href="#"><span class="icon-facebook-f"></span></a></li>
-                    </ul>
-                    <span>FOUNDER</span>
-                    <h2><a href="team-details.html">Courtney Henry</a></h2>
-                    <p>Logistic service provider company plays a pivotal role in the global supply chain
-                    </p>
-                    <div class="btn-box">
-                        <a href="contact.html">Contact Me <i class="icon-right-arrow21"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!--End Team One Single-->
-
-            <!--Start Team One Single-->
-            <div class="team-one__single">
-                <div class="team-one__single-img">
-                    <div class="inner">
-                        <img src="assets/images/team/team-v1-img2.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="team-one__single-content">
-                    <ul class="social-links">
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter1"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                        <li><a href="#"><span class="icon-facebook-f"></span></a></li>
-                    </ul>
-                    <span>FOUNDER</span>
-                    <h2><a href="team-details.html">Jane Cooper</a></h2>
-                    <p>Logistic service provider company plays a pivotal role in the global supply chain
-                    </p>
-                    <div class="btn-box">
-                        <a href="contact.html">Contact Me <i class="icon-right-arrow21"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!--End Team One Single-->
-
-            <!--Start Team One Single-->
-            <div class="team-one__single">
-                <div class="team-one__single-img">
-                    <div class="inner">
-                        <img src="assets/images/team/team-v1-img3.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="team-one__single-content">
-                    <ul class="social-links">
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter1"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                        <li><a href="#"><span class="icon-facebook-f"></span></a></li>
-                    </ul>
-                    <span>FOUNDER</span>
-                    <h2><a href="team-details.html">Marvin McKinney</a></h2>
-                    <p>Logistic service provider company plays a pivotal role in the global supply chain
-                    </p>
-                    <div class="btn-box">
-                        <a href="contact.html">Contact Me <i class="icon-right-arrow21"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!--End Team One Single-->
-
-            <!--Start Team One Single-->
-            <div class="team-one__single">
-                <div class="team-one__single-img">
-                    <div class="inner">
-                        <img src="assets/images/team/team-v1-img1.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="team-one__single-content">
-                    <ul class="social-links">
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter1"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                        <li><a href="#"><span class="icon-facebook-f"></span></a></li>
-                    </ul>
-                    <span>FOUNDER</span>
-                    <h2><a href="team-details.html">Courtney Henry</a></h2>
-                    <p>Logistic service provider company plays a pivotal role in the global supply chain
-                    </p>
-                    <div class="btn-box">
-                        <a href="contact.html">Contact Me <i class="icon-right-arrow21"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!--End Team One Single-->
-
-            <!--Start Team One Single-->
-            <div class="team-one__single">
-                <div class="team-one__single-img">
-                    <div class="inner">
-                        <img src="assets/images/team/team-v1-img2.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="team-one__single-content">
-                    <ul class="social-links">
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter1"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                        <li><a href="#"><span class="icon-facebook-f"></span></a></li>
-                    </ul>
-                    <span>FOUNDER</span>
-                    <h2><a href="team-details.html">Jane Cooper</a></h2>
-                    <p>Logistic service provider company plays a pivotal role in the global supply chain
-                    </p>
-                    <div class="btn-box">
-                        <a href="contact.html">Contact Me <i class="icon-right-arrow21"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!--End Team One Single-->
-
-            <!--Start Team One Single-->
-            <div class="team-one__single">
-                <div class="team-one__single-img">
-                    <div class="inner">
-                        <img src="assets/images/team/team-v1-img3.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="team-one__single-content">
-                    <ul class="social-links">
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter1"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                        <li><a href="#"><span class="icon-facebook-f"></span></a></li>
-                    </ul>
-                    <span>FOUNDER</span>
-                    <h2><a href="team-details.html">Marvin McKinney</a></h2>
-                    <p>Logistic service provider company plays a pivotal role in the global supply chain
-                    </p>
-                    <div class="btn-box">
-                        <a href="contact.html">Contact Me <i class="icon-right-arrow21"></i></a>
-                    </div>
-                </div>
-            </div>
-            <!--End Team One Single-->
-        </div>
-    </div>
-</section>
-<!--End Team One-->
-
-
-<!-- Quote One -->
-<section class="quote-one">
-    <div class="quote-one__bg" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-        style="background-image: url(assets/images/backgrounds/quote-v1-bg4.jpg);"></div>
-    <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="sec-title center text-center tg-heading-subheading animation-style2">
-                    <div class="sec-title__tagline">
-                        <div class="line"></div>
-                        <div class="text tg-element-title">
-                            <h4>Shipping</h4>
+            <div class="service-one__carousel owl-carousel owl-theme owl-dot-style1">
+
+                <!--Start Service One Single-->
+                <div class="service-one__single">
+                    <div class="service-one__single-inner">
+                        <div class="service-one__single-img">
+                            <img src="assets/images/services/services-v1-img1.jpg" alt="#">
                         </div>
-                        <div class="icon">
-                            <span class="icon-plane2 float-bob-x3"></span>
-                        </div>
-                    </div>
-                    <h2 class="sec-title__title tg-element-title">Request For A <span>Qoute</span></h2>
-                </div>
 
-                <div class="quote-tab wow fadeInUp" data-wow-delay="100ms">
-
-                    <div class="quote-tab__button">
-                        <ul class="tabs-button-box clearfix">
-                            <li data-tab="#tab-btn1" class="tab-btn-item active-btn-item">
-                                <div class="quote-tab__button-inner">
-                                    <h3>Request A Quote</h3>
-                                </div>
-                            </li>
-                            <li data-tab="#tab-btn2" class="tab-btn-item">
-                                <div class="quote-tab__button-inner">
-                                    <h3>Track & Trace</h3>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!--Start Tabs Content Box-->
-                    <div class="tabs-content-box">
-                        <!--Start Tab-->
-                        <div class="tab-content-box-item" id="tab-btn1">
-                            <div class="quote-tab-content-box-item">
-                                <div class="tab-content-box-item-img"
-                                    style="background-image: url(assets/images/backgrounds/quote-v1-bg2.jpg);">
-                                </div>
-                                <div class="quotes-wrapper">
-                                    <div class="quotes-wrapper-inner">
-                                        <div class="title-box">
-                                            <h2>Shipment Point</h2>
-                                        </div>
-
-                                        <div class="quotes-weight">
-                                            <form class="contact-form-validated quote-one__form"
-                                                action="https://weblayout.mnsithub.com/html/logistiq/main-html/assets/inc/sendemail.php"
-                                                method="post" novalidate="novalidate">
-
-                                                <div class="row">
-                                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                                        <div class="input-box">
-                                                            <label>Name</label>
-                                                            <input type="text" name="name" placeholder="Enter Name">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                                        <div class="input-box">
-                                                            <label>Email Name</label>
-                                                            <input type="email" name="email"
-                                                                placeholder="Email Address">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                                        <div class="input-box">
-                                                            <label>Phone Number</label>
-                                                            <input type="text" name="phone" placeholder="Mobile Num">
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                                        <div class="input-box">
-                                                            <label>Freight</label>
-                                                            <div class="select-box">
-                                                                <select class="selectmenu wide">
-                                                                    <option selected="selected">Freight Type
-                                                                    </option>
-                                                                    <option>Freight Type 01</option>
-                                                                    <option>Freight Type 02</option>
-                                                                    <option>Freight Type 03</option>
-                                                                    <option>Freight Type 04</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                                        <div class="input-box">
-                                                            <label>Weight</label>
-                                                            <input type="text" name="weight" placeholder="Weight">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                                        <div class="input-box">
-                                                            <label>Lenght</label>
-                                                            <input type="number" name="lenght" placeholder="Lenght">
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-xl-12">
-                                                        <div class="quote-redio-box">
-                                                            <div class="quote-redio">
-                                                                <label class="custom-rario">
-                                                                    <input type="radio" name="myRadios" value="1"
-                                                                        checked>
-                                                                    <span class="radio-dot"></span>
-                                                                    <span class="radio-text">Express
-                                                                        Delivery</span>
-                                                                </label>
-                                                                <label class="custom-rario">
-                                                                    <input type="radio" name="myRadios" value="2">
-                                                                    <span class="radio-dot"></span>
-                                                                    <span class="radio-text">Insurance</span>
-                                                                </label>
-                                                                <label class="custom-rario">
-                                                                    <input type="radio" name="myRadios" value="3">
-                                                                    <span class="radio-dot"></span>
-                                                                    <span class="radio-text">Packaging</span>
-                                                                </label>
-                                                                <label class="custom-rario">
-                                                                    <input type="radio" name="myRadios" value="4">
-                                                                    <span class="radio-dot"></span>
-                                                                    <span class="radio-text">Incoterms</span>
-                                                                </label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-xl-12">
-                                                        <div class="quote-two__btn">
-                                                            <button type="submit" class="thm-btn">
-                                                                Request For A Quote
-                                                                <i class="icon-right-arrow21"></i>
-                                                                <span class="hover-btn hover-bx"></span>
-                                                                <span class="hover-btn hover-bx2"></span>
-                                                                <span class="hover-btn hover-bx3"></span>
-                                                                <span class="hover-btn hover-bx4"></span>
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="service-one__single-content">
+                            <h2><a>Cadillac XTS</a></h2>
+                            <p><li>3 Passengers</li>
+                            <li>2 Luggage</li></p>
+                            <div class="btn-box">
+                                <a href="#">Book Online <span
+                                        class="icon-right-arrow21"></span></a>
                             </div>
                         </div>
-                        <!--End Tab-->
+                    </div>
 
-                        <!--Start Tab-->
-                        <div class="tab-content-box-item tab-content-box-item-active" id="tab-btn2">
-                            <div class="quote-tab-content-box-item">
-                                <div class="tab-content-box-item-img"
-                                    style="background-image: url(assets/images/backgrounds/quote-v1-bg.jpg);">
-                                </div>
-                                <div class="quotes-wrapper">
-                                    <div class="quotes-wrapper-inner">
-                                        <div class="title-box">
-                                            <h2>Shipment Point</h2>
-                                        </div>
+                </div>
+                <!--End Service One Single-->
+                <!--Start Service One Single-->
+                <div class="service-one__single">
+                    <div class="service-one__single-inner">
+                        <div class="service-one__single-img">
+                            <img src="assets/images/services/services-v1-img2.jpg" alt="#">
+                        </div>
 
-                                        <div class="quotes-weight">
-                                            <form class="contact-form-validated quote-one__form"
-                                                action="https://weblayout.mnsithub.com/html/logistiq/main-html/assets/inc/sendemail.php"
-                                                method="post" novalidate="novalidate">
-
-                                                <div class="row">
-                                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                                        <div class="input-box">
-                                                            <label>Name</label>
-                                                            <input type="text" name="name" placeholder="Enter Name">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                                        <div class="input-box">
-                                                            <label>Email Name</label>
-                                                            <input type="email" name="email"
-                                                                placeholder="Email Address">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                                        <div class="input-box">
-                                                            <label>Phone Number</label>
-                                                            <input type="text" name="phone" placeholder="Mobile Num">
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                                        <div class="input-box">
-                                                            <label>Freight</label>
-                                                            <div class="select-box">
-                                                                <select class="selectmenu wide">
-                                                                    <option selected="selected">Freight Type
-                                                                    </option>
-                                                                    <option>Freight Type 01</option>
-                                                                    <option>Freight Type 02</option>
-                                                                    <option>Freight Type 03</option>
-                                                                    <option>Freight Type 04</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                                        <div class="input-box">
-                                                            <label>Weight</label>
-                                                            <input type="text" name="weight" placeholder="Weight">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-4 col-lg-4 col-md-4">
-                                                        <div class="input-box">
-                                                            <label>Lenght</label>
-                                                            <input type="number" name="lenght" placeholder="Lenght">
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-xl-12">
-                                                        <div class="quote-redio-box">
-                                                            <div class="quote-redio">
-                                                                <label class="custom-rario">
-                                                                    <input type="radio" name="myRadios" value="1"
-                                                                        checked>
-                                                                    <span class="radio-dot"></span>
-                                                                    <span class="radio-text">Express
-                                                                        Delivery</span>
-                                                                </label>
-                                                                <label class="custom-rario">
-                                                                    <input type="radio" name="myRadios" value="2">
-                                                                    <span class="radio-dot"></span>
-                                                                    <span class="radio-text">Insurance</span>
-                                                                </label>
-                                                                <label class="custom-rario">
-                                                                    <input type="radio" name="myRadios" value="3">
-                                                                    <span class="radio-dot"></span>
-                                                                    <span class="radio-text">Packaging</span>
-                                                                </label>
-                                                                <label class="custom-rario">
-                                                                    <input type="radio" name="myRadios" value="4">
-                                                                    <span class="radio-dot"></span>
-                                                                    <span class="radio-text">Incoterms</span>
-                                                                </label>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-xl-12">
-                                                        <div class="quote-two__btn">
-                                                            <button type="submit" class="thm-btn">
-                                                                Request For A Quote
-                                                                <i class="icon-right-arrow21"></i>
-                                                                <span class="hover-btn hover-bx"></span>
-                                                                <span class="hover-btn hover-bx2"></span>
-                                                                <span class="hover-btn hover-bx3"></span>
-                                                                <span class="hover-btn hover-bx4"></span>
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
+                        <div class="service-one__single-content">
+                            <h2><a>Cadillac Escalade</a></h2>
+                            <p><li>6 Passengers</li>
+                            <li>6 Luggage</li></p>
+                            <div class="btn-box">
+                                <a href="#">Book Online <span
+                                        class="icon-right-arrow21"></span></a>
                             </div>
                         </div>
-                        <!--End Tab-->
                     </div>
-                    <!--End Tabs Content Box-->
                 </div>
+                <!--End Service One Single-->
+                <!--Start Service One Single-->
+                <div class="service-one__single">
+                    <div class="service-one__single-inner">
+                        <div class="service-one__single-img">
+                            <img src="assets/images/services/services-v1-img3.jpg" alt="#">
+                        </div>
+
+                        <div class="service-one__single-content">
+                            <h2><a>GMC Yukon Denali</a></h2>
+                            <p><li>6 Passengers</li>
+                            <li>6 Luggage</li></p>
+                            <div class="btn-box">
+                                <a href="#">Book Online <span
+                                        class="icon-right-arrow21"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Service One Single-->
+
+                <!--Start Service One Single-->
+                <div class="service-one__single">
+                    <div class="service-one__single-inner">
+                        <div class="service-one__single-img">
+                            <img src="assets/images/services/services-v1-img1.jpg" alt="#">
+                        </div>
+
+                        <div class="service-one__single-content">
+                            <h2><a>Chevy Suburban</a></h2>
+                            <p><li>6 Passengers</li>
+                            <li>6 Luggage</li></p>
+                            <div class="btn-box">
+                                <a href="#">Book Online <span
+                                        class="icon-right-arrow21"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Service One Single-->
+                <!--Start Service One Single-->
+                <div class="service-one__single">
+                    <div class="service-one__single-inner">
+                        <div class="service-one__single-img">
+                            <img src="assets/images/services/services-v1-img2.jpg" alt="#">
+                        </div>
+
+                        <div class="service-one__single-content">
+                            <h2><a>Sprinter Van</a></h2>
+                            <p><li>14 Passengers</li>
+                            <li>14 Luggage</li></p>
+                            <div class="btn-box">
+                                <a href="#">Book Online <span
+                                        class="icon-right-arrow21"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Service One Single-->
+                <!--Start Service One Single-->
+                <div class="service-one__single">
+                    <div class="service-one__single-inner">
+                        <div class="service-one__single-img">
+                            <img src="assets/images/services/services-v1-img3.jpg" alt="#">
+                        </div>
+
+                        <div class="service-one__single-content">
+                            <h2><a>Sprinter CEO</a></h2>
+                            <p><li>9 Passengers</li>
+                            <li>0 Luggage</li></p>
+                            <div class="btn-box">
+                                <a href="#">Book Online <span
+                                        class="icon-right-arrow21"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Service One Single-->
+
+                <!--Start Service One Single-->
+                <div class="service-one__single">
+                    <div class="service-one__single-inner">
+                        <div class="service-one__single-img">
+                            <img src="assets/images/services/services-v1-img1.jpg" alt="#">
+                        </div>
+
+                        <div class="service-one__single-content">
+                            <h2><a>Sprinter Limousine</a></h2>
+                            <p><li>12 Passengers</li>
+                            <li>0 Luggage</li></p>
+                            <div class="btn-box">
+                                <a href="#">Book Online <span
+                                        class="icon-right-arrow21"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Service One Single-->
+                <!--Start Service One Single-->
+                <div class="service-one__single">
+                    <div class="service-one__single-inner">
+                        <div class="service-one__single-img">
+                            <img src="assets/images/services/services-v1-img2.jpg" alt="#">
+                        </div>
+
+                        <div class="service-one__single-content">
+                            <h2><a>Stretch Limousine</a></h2>
+                            <p><li>10 Passengers</li>
+                            <li>3 Luggage</li></p>
+                            <div class="btn-box">
+                                <a href="#">Book Online <span
+                                        class="icon-right-arrow21"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End Service One Single-->
             </div>
         </div>
     </div>
 </section>
-<!-- End Quote One -->
+<!--End Service One-->
 
 <!--Start Testimonial Three-->
 <section class="testimonial-three">
-    <div class="shape1 float-bob-x3"><img src="assets/images/shapes/quote-v1-shape1.png" alt=""></div>
     <div class="container">
         <div class="sec-title center text-center tg-heading-subheading animation-style2">
             <div class="sec-title__tagline">
@@ -1134,45 +759,41 @@
 
         <div class="testimonial-three__inner">
             <div class="testimonial-three__img1 float-bob-y3">
-                <img src="assets/images/testimonial/testimonial-v3-img5.jpg" alt="">
+                <img src="{{ asset('assets/images/testimonial/testimonial-v3-img5.jpg') }}" alt="">
             </div>
 
             <div class="testimonial-three__img2 float-bob-y3">
-                <img src="assets/images/testimonial/testimonial-v3-img7.jpg" alt="">
+                <img src="{{ asset('assets/images/testimonial/testimonial-v3-img7.jpg') }}" alt="">
             </div>
 
             <div class="testimonial-three__img3  float-bob-x3">
-                <img src="assets/images/testimonial/testimonial-v3-img8.jpg" alt="">
+                <img src="{{ asset('assets/images/testimonial/testimonial-v3-img8.jpg') }}" alt="">
             </div>
 
             <div class="testimonial-three__img4  float-bob-y3">
-                <img src="assets/images/testimonial/testimonial-v3-img9.jpg" alt="">
+                <img src="{{ asset('assets/images/testimonial/testimonial-v3-img9.jpg') }}" alt="">
             </div>
 
             <div class="testimonial-three__img5  float-bob-y3">
-                <img src="assets/images/testimonial/testimonial-v3-img6.jpg" alt="">
+                <img src="{{ asset('assets/images/testimonial/testimonial-v3-img6.jpg') }}" alt="">
             </div>
 
             <div class="testimonial-three__img6  float-bob-x3">
-                <img src="assets/images/testimonial/testimonial-v3-img4.jpg" alt="">
+                <img src="{{ asset('assets/images/testimonial/testimonial-v3-img4.jpg') }}" alt="">
             </div>
 
             <div class="testimonial-three__carousel owl-carousel owl-theme">
                 <!--Start Testimonial Three Single-->
                 <div class="testimonial-three__single">
-                    <div class="testimonial-three__single-img">
-                        <img src="assets/images/testimonial/testimonial-v3-img1.jpg" alt="">
-                    </div>
 
                     <div class="testimonial-three__single-title text-center">
-                        <h2>A logistic service provider company plays a pivotal role in the
-                            global supply chain A logistic service provider companyA logistic service
-                            provider.</h2>
+                        <h2>We contracted with Nashville Limo for an entire evening moving 6 of us around three venues
+                            in and around Nashville. The driver was very professional and courteous. They made a special
+                            night during the Holidays even better. I highly recommend their service.</h2>
                     </div>
 
                     <div class="testimonial-three__single-author text-center">
-                        <h2>Leslie Alexander</h2>
-                        <p>Military Man, Member for 5 Years.</p>
+                        <h2>Donald Rubright</h2>
                     </div>
 
                     <div class="testimonial-three__single-rating">
@@ -1187,19 +808,14 @@
 
                 <!--Start Testimonial Three Single-->
                 <div class="testimonial-three__single">
-                    <div class="testimonial-three__single-img">
-                        <img src="assets/images/testimonial/testimonial-v3-img2.jpg" alt="">
-                    </div>
 
                     <div class="testimonial-three__single-title text-center">
-                        <h2>A logistic service provider company plays a pivotal role in the
-                            global supply chain A logistic service provider companyA logistic service
-                            provider.</h2>
+                        <h2>Benny was on time, friendly, helpful and great conversation on our way to the airport!!!
+                            Will use Nashville Limo and specifically request Benny again on our next visit!</h2>
                     </div>
 
                     <div class="testimonial-three__single-author text-center">
-                        <h2>Leslie Alexander</h2>
-                        <p>Military Man, Member for 5 Years.</p>
+                        <h2>Stephen Yosh</h2>
                     </div>
 
                     <div class="testimonial-three__single-rating">
@@ -1214,19 +830,61 @@
 
                 <!--Start Testimonial Three Single-->
                 <div class="testimonial-three__single">
-                    <div class="testimonial-three__single-img">
-                        <img src="assets/images/testimonial/testimonial-v3-img3.jpg" alt="">
-                    </div>
 
                     <div class="testimonial-three__single-title text-center">
-                        <h2>A logistic service provider company plays a pivotal role in the
-                            global supply chain A logistic service provider companyA logistic service
-                            provider.</h2>
+                        <h2>Absolutely outstanding in every way. We had 3 separate reservations and all were perfect. He
+                            communicated well, was on time, helpful, gave great local advice, vehicles were luxurious
+                            and immaculate. The overall service was perfect. Highly recommend.</h2>
                     </div>
 
                     <div class="testimonial-three__single-author text-center">
-                        <h2>Leslie Alexander</h2>
-                        <p>Military Man, Member for 5 Years.</p>
+                        <h2>Christopher Jones</h2>
+                    </div>
+
+                    <div class="testimonial-three__single-rating">
+                        <div class="icon">
+                            <span class="icon-star"></span>
+                        </div>
+                        <h4>5 out of 5</h4>
+                    </div>
+
+                </div>
+                <!--End Testimonial Three Single-->
+
+                <!--Start Testimonial Three Single-->
+                <div class="testimonial-three__single">
+
+                    <div class="testimonial-three__single-title text-center">
+                        <h2>Nashville Limo Service provided top tier private transportation service. Pickup was easy,
+                            smooth, and on time. The car was spacious and clean. The driver was friendly and super
+                            helpful. I will book their services over and over again!</h2>
+                    </div>
+
+                    <div class="testimonial-three__single-author text-center">
+                        <h2>Andrea Yelk</h2>
+                    </div>
+
+                    <div class="testimonial-three__single-rating">
+                        <div class="icon">
+                            <span class="icon-star"></span>
+                        </div>
+                        <h4>5 out of 5</h4>
+                    </div>
+
+                </div>
+                <!--End Testimonial Three Single-->
+
+                <!--Start Testimonial Three Single-->
+                <div class="testimonial-three__single">
+
+                    <div class="testimonial-three__single-title text-center">
+                        <h2>Since my recent move to Nashville, Nash Limousine has been my go-to luxury transportation
+                            service of choice when I travel, or have guests in town who need transportation. The team’s
+                            world class customer service makes it easy to be a repeat customer.</h2>
+                    </div>
+
+                    <div class="testimonial-three__single-author text-center">
+                        <h2>Kingsley Osakwe</h2>
                     </div>
 
                     <div class="testimonial-three__single-rating">
@@ -1245,543 +903,5 @@
     </div>
 </section>
 <!--End Testimonial Three-->
-
-<!--Start Pricing One-->
-<section class="pricing-one">
-    <div class="pricing-one__pattern" style="background-image: url(assets/images/pattern/pricing-v1-pattern.png);">
-    </div>
-    <div class="container">
-        <div class="sec-title center text-center tg-heading-subheading animation-style2">
-            <div class="sec-title__tagline">
-                <div class="line"></div>
-                <div class="text tg-element-title">
-                    <h4>OUR PRICING PLAN</h4>
-                </div>
-                <div class="icon">
-                    <span class="icon-plane2 float-bob-x3"></span>
-                </div>
-            </div>
-            <h2 class="sec-title__title tg-element-title">Our Effective and Affordable <br>
-                Pricing <span>Plans</span></h2>
-        </div>
-
-        <div class="row">
-
-            <!--Start Pricing One Single-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-                <div class="pricing-one__single">
-                    <div class="pricing-one__single-inner">
-                        <div class="table-header">
-                            <div class="img-box">
-                                <img src="assets/images/resources/pricing-v1-img1.jpg" alt="">
-                            </div>
-                            <div class="title-box">
-                                <h2>Road Cargo</h2>
-                                <h3>$99 <span>/50kg</span></h3>
-                            </div>
-                        </div>
-
-                        <div class="table-content">
-                            <ul>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Pickup and delivery</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Custom coverage</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Customer Management</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Deliver in 2-3 days</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>24 Hours Support</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="table-footer">
-                            <div class="btn-box">
-                                <a class="thm-btn" href="#">Choose Plan
-                                    <i class="icon-right-arrow21"></i>
-                                    <span class="hover-btn hover-bx"></span>
-                                    <span class="hover-btn hover-bx2"></span>
-                                    <span class="hover-btn hover-bx3"></span>
-                                    <span class="hover-btn hover-bx4"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Pricing One Single-->
-
-            <!--Start Pricing One Single-->
-            <div class="col-xl-4 col-lg-4 wow fadeInDown" data-wow-delay=".3s">
-                <div class="pricing-one__single">
-                    <div class="pricing-one__single-inner">
-                        <div class="table-header">
-                            <div class="img-box">
-                                <img src="assets/images/resources/pricing-v1-img2.jpg" alt="">
-                            </div>
-                            <div class="title-box">
-                                <h2>Sea Freight</h2>
-                                <h3>$199 <span>/50kg</span></h3>
-                            </div>
-                        </div>
-
-                        <div class="table-content">
-                            <ul>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Pickup and delivery</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Custom coverage</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Customer Management</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Deliver in 2-3 days</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>24 Hours Support</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="table-footer">
-                            <div class="btn-box">
-                                <a class="thm-btn" href="#">Choose Plan
-                                    <i class="icon-right-arrow21"></i>
-                                    <span class="hover-btn hover-bx"></span>
-                                    <span class="hover-btn hover-bx2"></span>
-                                    <span class="hover-btn hover-bx3"></span>
-                                    <span class="hover-btn hover-bx4"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Pricing One Single-->
-
-            <!--Start Pricing One Single-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-                <div class="pricing-one__single">
-                    <div class="pricing-one__single-inner">
-                        <div class="table-header">
-                            <div class="img-box">
-                                <img src="assets/images/resources/pricing-v1-img3.jpg" alt="">
-                            </div>
-                            <div class="title-box">
-                                <h2>Ship Cargo</h2>
-                                <h3>$250 <span>/100kg</span></h3>
-                            </div>
-                        </div>
-
-                        <div class="table-content">
-                            <ul>
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Pickup and delivery</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Custom coverage</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Customer Management</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>Deliver in 2-3 days</p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div class="icon">
-                                        <span class="fa fa-check-circle"></span>
-                                    </div>
-
-                                    <div class="text-box">
-                                        <p>24 Hours Support</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="table-footer">
-                            <div class="btn-box">
-                                <a class="thm-btn" href="#">Choose Plan
-                                    <i class="icon-right-arrow21"></i>
-                                    <span class="hover-btn hover-bx"></span>
-                                    <span class="hover-btn hover-bx2"></span>
-                                    <span class="hover-btn hover-bx3"></span>
-                                    <span class="hover-btn hover-bx4"></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Pricing One Single-->
-        </div>
-    </div>
-</section>
-<!--End Pricing One-->
-
-<!--Start Counter One-->
-<section class="counter-one counter-one--three">
-    <div class="counter-one--three__pattern"
-        style="background-image: url(assets/images/pattern/counter-v3-pattern.png);"></div>
-    <div class="container">
-        <div class="row">
-            <!--Start Counter One Single-->
-            <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                <div class="counter-one__single">
-                    <div class="counter-one__single-inner">
-                        <div class="icon">
-                            <span class="icon-box"></span>
-                        </div>
-
-                        <div class="content-box">
-                            <div class="count-text-box count-box">
-                                <h3 class="count-text" data-stop="541" data-speed="1500">00</h3>
-                                <span class="plus">+</span>
-                            </div>
-                            <div class="text-box">
-                                <p>Distribution Center</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="shape1"></div>
-                </div>
-            </div>
-            <!--End Counter One Single-->
-
-            <!--Start Counter One Single-->
-            <div class="col-xl-4 col-lg-4 wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                <div class="counter-one__single">
-                    <div class="counter-one__single-inner">
-                        <div class="icon">
-                            <span class="icon-location"></span>
-                        </div>
-
-                        <div class="content-box">
-                            <div class="count-text-box count-box">
-                                <h3 class="count-text" data-stop="766" data-speed="1500">00</h3>
-                                <span class="plus">+</span>
-                            </div>
-                            <div class="text-box">
-                                <p>Countries & Regions</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="shape1"></div>
-                </div>
-            </div>
-            <!--End Counter One Single-->
-
-            <!--Start Counter One Single-->
-            <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                <div class="counter-one__single">
-                    <div class="counter-one__single-inner">
-                        <div class="icon">
-                            <span class="icon-customer-loyalty"></span>
-                        </div>
-
-                        <div class="content-box">
-                            <div class="count-text-box count-box">
-                                <h3 class="count-text" data-stop="25" data-speed="1500">00</h3>
-                                <span class="plus">+</span>
-                            </div>
-                            <div class="text-box">
-                                <p>Years Of Expirence</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="shape1"></div>
-                </div>
-            </div>
-            <!--End Counter One Single-->
-        </div>
-    </div>
-</section>
-<!--End Counter One-->
-
-<!--Start Blog Two-->
-<section class="blog-three">
-    <div class="container">
-        <div class="sec-title center text-center tg-heading-subheading animation-style2">
-            <div class="sec-title__tagline">
-                <div class="line"></div>
-                <div class="text tg-element-title">
-                    <h4>Latest Blogs</h4>
-                </div>
-                <div class="icon">
-                    <span class="icon-plane2 float-bob-x3"></span>
-                </div>
-            </div>
-            <h2 class="sec-title__title tg-element-title">Latest Blogs & <span>News</span></h2>
-        </div>
-
-        <div class="row">
-            <!--Start Blog Two Single-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="00ms">
-                <div class="blog-three__single">
-                    <div class="blog-three__single-img">
-                        <div class="inner">
-                            <img src="assets/images/blog/blog-v3-img1.jpg" alt="">
-                            <img src="assets/images/blog/blog-v3-img1.jpg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="blog-three__single-content">
-                        <ul class="meta-box">
-                            <li><i class="icon-user"></i> Admin</li>
-                            <li class="bg2"><i class="icon-clock"></i> 20 Jan 2025
-                            </li>
-                        </ul>
-
-                        <h2><a href="blog-details.html">What is the Future of Truckload <br> Transportation?</a>
-                        </h2>
-                        <p>Phosfluorecent synergize holistic leadership skills before effective technology.</p>
-
-                        <div class="btn-box">
-                            <a class="thm-btn" href="blog-details.html">Read More
-                                <i class="icon-right-arrow21"></i>
-                                <span class="hover-btn hover-bx"></span>
-                                <span class="hover-btn hover-bx2"></span>
-                                <span class="hover-btn hover-bx3"></span>
-                                <span class="hover-btn hover-bx4"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Blog Two Single-->
-
-            <!--Start Blog Two Single-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
-                <div class="blog-three__single">
-                    <div class="blog-three__single-img">
-                        <div class="inner">
-                            <img src="assets/images/blog/blog-v3-img2.jpg" alt="">
-                            <img src="assets/images/blog/blog-v3-img2.jpg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="blog-three__single-content">
-                        <ul class="meta-box">
-                            <li><i class="icon-user"></i> Admin</li>
-                            <li class="bg2"><i class="icon-clock"></i> 20 Jan 2025
-                            </li>
-                        </ul>
-
-                        <h2><a href="blog-details.html">Cargo Follow Through the <br> Best Supply Your Metal</a>
-                        </h2>
-                        <p>Phosfluorecent synergize holistic leadership skills before effective technology.</p>
-
-                        <div class="btn-box">
-                            <a class="thm-btn" href="blog-details.html">Read More
-                                <i class="icon-right-arrow21"></i>
-                                <span class="hover-btn hover-bx"></span>
-                                <span class="hover-btn hover-bx2"></span>
-                                <span class="hover-btn hover-bx3"></span>
-                                <span class="hover-btn hover-bx4"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Blog Two Single-->
-
-            <!--Start Blog Two Single-->
-            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="400ms">
-                <div class="blog-three__single">
-                    <div class="blog-three__single-img">
-                        <div class="inner">
-                            <img src="assets/images/blog/blog-v3-img3.jpg" alt="">
-                            <img src="assets/images/blog/blog-v3-img3.jpg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="blog-three__single-content">
-                        <ul class="meta-box">
-                            <li><i class="icon-user"></i> Admin</li>
-                            <li class="bg2"><i class="icon-clock"></i> 20 Jan 2025
-                            </li>
-                        </ul>
-
-                        <h2><a href="blog-details.html">Fast and Reliable Shipping <br> Guaranteey Trusted</a>
-                        </h2>
-                        <p>Phosfluorecent synergize holistic leadership skills before effective technology.</p>
-
-                        <div class="btn-box">
-                            <a class="thm-btn" href="blog-details.html">Read More
-                                <i class="icon-right-arrow21"></i>
-                                <span class="hover-btn hover-bx"></span>
-                                <span class="hover-btn hover-bx2"></span>
-                                <span class="hover-btn hover-bx3"></span>
-                                <span class="hover-btn hover-bx4"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Blog Two Single-->
-        </div>
-    </div>
-</section>
-<!--End Blog Two-->
-
-<!--Start Brand One-->
-<section class="brand-one">
-    <div class="container">
-        <div class="brand-one__carousel owl-carousel owl-theme">
-            <!--Start Brand One Single-->
-            <div class="brand-one__single">
-                <div class="brand-one__single-inner">
-                    <a href="#"><img src="assets/images/brand/brand-v1-img1.png" alt=""></a>
-                </div>
-            </div>
-            <!--End Brand One Single-->
-
-            <!--Start Brand One Single-->
-            <div class="brand-one__single">
-                <div class="brand-one__single-inner">
-                    <a href="#"><img src="assets/images/brand/brand-v1-img2.png" alt=""></a>
-                </div>
-            </div>
-            <!--End Brand One Single-->
-
-            <!--Start Brand One Single-->
-            <div class="brand-one__single">
-                <div class="brand-one__single-inner">
-                    <a href="#"><img src="assets/images/brand/brand-v1-img3.png" alt=""></a>
-                </div>
-            </div>
-            <!--End Brand One Single-->
-
-            <!--Start Brand One Single-->
-            <div class="brand-one__single">
-                <div class="brand-one__single-inner">
-                    <a href="#"><img src="assets/images/brand/brand-v1-img4.png" alt=""></a>
-                </div>
-            </div>
-            <!--End Brand One Single-->
-
-            <!--Start Brand One Single-->
-            <div class="brand-one__single">
-                <div class="brand-one__single-inner">
-                    <a href="#"><img src="assets/images/brand/brand-v1-img5.png" alt=""></a>
-                </div>
-            </div>
-            <!--End Brand One Single-->
-
-            <!--Start Brand One Single-->
-            <div class="brand-one__single">
-                <div class="brand-one__single-inner">
-                    <a href="#"><img src="assets/images/brand/brand-v1-img6.png" alt=""></a>
-                </div>
-            </div>
-            <!--End Brand One Single-->
-        </div>
-    </div>
-</section>
-<!--End Brand One-->
 
 @endsection

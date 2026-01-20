@@ -924,12 +924,15 @@ Slider One
     display: block;
     max-width: 700px;
     width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .slider-one__single-content .tagline {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 20px;
     opacity: 0;
     -webkit-transform: perspective(400px) rotateY(0deg) translateY(-80px);
