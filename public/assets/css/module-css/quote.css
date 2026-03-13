@@ -204,6 +204,7 @@ Quote One
 
 .quote-one__form .input-box input[type="text"],
 .quote-one__form .input-box input[type="email"],
+.quote-one__form .input-box input[type="tel"],
 .quote-one__form .input-box input[type="number"] {
     position: relative;
     display: block;

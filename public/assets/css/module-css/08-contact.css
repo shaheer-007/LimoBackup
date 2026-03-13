@@ -90,7 +90,8 @@ Contact Page
 }
 
 .contact-page__top-form .why-choose-one__form .input-box input[type="text"],
-.contact-page__top-form .why-choose-one__form .input-box input[type="email"] {
+.contact-page__top-form .why-choose-one__form .input-box input[type="email"],
+.contact-page__top-form .why-choose-one__form .input-box input[type="tel"] {
     background-color: transparent;
 }
 

@@ -80,7 +80,7 @@ Footer One
 }
 
 .footer-one__about-logo a img {
-    width: 80%;
+    width: 40%;
     margin-top: -25px;
 }
 
@@ -241,6 +241,18 @@ Footer One
     color: var(--logistiq-base);
 }
 
+.footer-one__contact-box ul li a {
+    display: flex;
+    align-items: flex-start;
+    color: #E4E4E4;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-one__contact-box ul li a:hover .text-box p {
+    color: var(--logistiq-base);
+}
+
 .footer-one__subscribe {
     position: relative;
     display: block;
@@ -321,7 +333,7 @@ Footer One
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     border-top: 2px solid rgba(var(--logistiq-white-rgb), 0.2);
     padding: 20px 0px 20px;
 }

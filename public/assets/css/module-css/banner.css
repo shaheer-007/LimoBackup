@@ -860,8 +860,7 @@ Slider One
     left: 0;
     bottom: 0;
     right: 0;
-    background: var(--logistiq-black);
-    background-blend-mode: luminosity;
+    background: transparent;
     background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
@@ -889,7 +888,7 @@ Slider One
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(var(--logistiq-black-rgb), 0.7);
+    background: rgba(var(--logistiq-black-rgb), 0.5);
     content: "";
     z-index: -2;
 }
@@ -901,13 +900,13 @@ Slider One
     left: 0;
     bottom: 0;
     right: -300px;
-    opacity: 0.90;
+    opacity: 0.50;
     content: "";
-    background: rgb(14, 18, 29);
+    background: transparent;
     background: linear-gradient(-100deg,
-            rgba(0, 0, 0, 0.70) 10%,
-            rgba(0, 0, 0, 0.75) 30%,
-            rgba(0, 0, 0, 0.70) 50%);
+            rgba(0, 0, 0, 0.40) 10%,
+            rgba(0, 0, 0, 0.45) 30%,
+            rgba(0, 0, 0, 0.40) 50%);
 }
 
 
@@ -915,13 +914,20 @@ Slider One
 
 .slider-one__single-inner {
     position: relative;
-    display: block;
-    padding: 241px 0px 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 100px 0px 100px; /* Balanced padding for vertical centering */
 }
 
 .slider-one__single-content {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 700px;
     width: 100%;
     margin: 0 auto;
@@ -1018,7 +1024,7 @@ Slider One
 
 .slider-one__single-content .title-box h2 {
     color: var(--logistiq-white);
-    font-size: 82px;
+    font-size: 65px;
     line-height: 1em;
     font-weight: 700;
     text-transform: capitalize;
@@ -1240,7 +1246,8 @@ Slider One
 }
 
 .slider-one__form .input-box input[type="text"],
-.slider-one__form .input-box input[type="email"] {
+.slider-one__form .input-box input[type="email"],
+.slider-one__form .input-box input[type="tel"] {
     position: relative;
     display: block;
     height: 50px;

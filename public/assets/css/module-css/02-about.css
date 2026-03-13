@@ -32,22 +32,38 @@ About One
     --bs-gutter-x: 20px;
 }
 
-.about-one__content-text2-single {
+.about-one-feature-section {
     position: relative;
     display: block;
+    padding: 95px 0px 120px !important;
+    z-index: 1;
     background: var(--logistiq-white);
-    -webkit-box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 0px 28px 0px rgba(0, 0, 0, 0.08);
-    border-left: 2px solid var(--logistiq-base);
-    padding: 25px 25px 21px;
+}
+
+.about-one__content-text2-single {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: var(--logistiq-white);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.05); /* Uniform shadow on all sides */
+    border-left: 3px solid var(--logistiq-base);
+    padding: 35px 30px 40px;
     margin-bottom: 30px;
+    transition: all 300ms ease;
+    z-index: 1;
+}
+
+.about-one__content-text2-single:hover {
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.08);
+    transform: translateY(-5px);
 }
 
 .about-one__content-text2-single-top {
     position: relative;
     display: flex;
     align-items: center;
-    margin-bottom: 1px;
+    margin-bottom: 15px;
 }
 
 .about-one__content-text2-single-top .icon {
@@ -98,6 +114,7 @@ About One
 .about-one__content-text2-single p {
     font-size: 16px;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 .about-one__content-bottom {

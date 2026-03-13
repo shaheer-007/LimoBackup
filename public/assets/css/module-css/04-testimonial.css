@@ -21,7 +21,7 @@ Testimonial One
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.40;
+    opacity: 0.4;
     z-index: -1;
 }
 
@@ -41,7 +41,7 @@ Testimonial One
 
 .testimonial-one__content .big-title h2 {
     color: transparent;
-    -webkit-text-stroke: 1px #E4E4E4;
+    -webkit-text-stroke: 1px #e4e4e4;
     font-size: 98px;
     line-height: 0.9em;
     font-weight: 700;
@@ -52,7 +52,8 @@ Testimonial One
     padding-bottom: 39px;
 }
 
-.testimonial-one__carousel {}
+.testimonial-one__carousel {
+}
 
 .testimonial-one__single {
     position: relative;
@@ -163,7 +164,11 @@ Testimonial One
     letter-spacing: 2px;
 }
 
-.testimonial-one__single-inner .author-box .author-info .bottom-text .rating-box {
+.testimonial-one__single-inner
+    .author-box
+    .author-info
+    .bottom-text
+    .rating-box {
     position: relative;
     display: block;
     margin-left: 6px;
@@ -206,7 +211,7 @@ Testimonial One
     float: left;
 }
 
-.testimonial-one__img-author ul li+li {
+.testimonial-one__img-author ul li + li {
     margin-left: -20px;
 }
 
@@ -293,7 +298,6 @@ Testimonial Two
     line-height: 0px;
 }
 
-
 .testimonial-two__right {
     position: relative;
     display: block;
@@ -338,6 +342,22 @@ Testimonial Two
     height: 90px;
     border-radius: 50%;
     overflow: hidden;
+    border: 3px solid var(--logistiq-base);
+}
+
+.testimonial-two__single-top .name-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: var(--logistiq-base);
+    color: var(--logistiq-white);
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
     border: 3px solid var(--logistiq-base);
 }
 
@@ -395,7 +415,7 @@ Testimonial Two
     top: 20px;
     right: -15px;
     width: 15px;
-    border-top: 15px solid #a94020;
+    border-top: 15px solid #000000;
     border-left: 0px solid transparent;
     border-right: 15px solid transparent;
     content: "";
@@ -405,12 +425,13 @@ Testimonial Two
     color: var(--logistiq-white);
 }
 
-
-.testimonial-two__single .rating-box i+i {
+.testimonial-two__single .rating-box i + i {
     margin-left: 5px;
 }
 
-.testimonial-two__carousel.owl-dot-style1.owl-theme .owl-nav.disabled+.owl-dots {
+.testimonial-two__carousel.owl-dot-style1.owl-theme
+    .owl-nav.disabled
+    + .owl-dots {
     margin-top: 0px;
     position: absolute;
     top: 50%;
@@ -435,20 +456,20 @@ Testimonial Two
     -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1.2);
     -ms-transform: perspective(400px) rotateX(0deg) scaleY(1.2);
     transform: perspective(400px) rotateX(0deg) scaleY(1.2);
-    transition-delay: .1s;
+    transition-delay: 0.1s;
     transition-timing-function: ease-in-out;
-    transition-duration: .5s;
+    transition-duration: 0.5s;
     transition-property: all;
 }
 
 .testimonial-two__carousel.owl-carousel .owl-stage-outer .owl-item.active {
     opacity: 1;
-    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
-    -ms-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
-    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
-    transition-delay: .1s;
+    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1);
+    -ms-transform: perspective(400px) rotateX(0deg) scaleY(1);
+    transform: perspective(400px) rotateX(0deg) scaleY(1);
+    transition-delay: 0.1s;
     transition-timing-function: ease-in-out;
-    transition-duration: .3s;
+    transition-duration: 0.3s;
     transition-property: all;
 }
 
@@ -631,7 +652,6 @@ Testimonial Three
     text-transform: uppercase;
 }
 
-
 .testimonial-three__single-author {
     position: relative;
     display: block;
@@ -747,7 +767,7 @@ Testimonial Three
 
 .testimonial-three__bottom-left .rating-box1 h2 {
     font-size: 55px;
-    line-height: 1.0em;
+    line-height: 1em;
 }
 
 .testimonial-three__bottom-left .rating-box1 .rating-star {
@@ -786,7 +806,7 @@ Testimonial Three
     color: transparent;
     -webkit-text-stroke: 1px rgba(var(--logistiq-gray-rgb), 0.3);
     font-size: 150px;
-    line-height: 1.0em;
+    line-height: 1em;
 }
 
 .testimonial-three__bottom-right .btn-box .icon span {
@@ -879,7 +899,7 @@ Testimonial Three
 
 .testimonial-three__carousel.owl-theme .owl-nav .owl-prev:hover::before,
 .testimonial-three__carousel.owl-theme .owl-nav .owl-next:hover:before {
-    transform: scaleX(1.0);
+    transform: scaleX(1);
     opacity: 1;
 }
 

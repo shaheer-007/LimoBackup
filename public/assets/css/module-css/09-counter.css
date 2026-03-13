@@ -11,6 +11,14 @@ Counter One
     z-index: 1;
 }
 
+.counter-one .sec-title {
+    margin-bottom: 50px;
+}
+
+.counter-one .sec-title__text p {
+    margin-top: 15px;
+}
+
 .counter-one__single {
     position: relative;
     display: block;
@@ -41,14 +49,19 @@ Counter One
     content: "";
 }
 
-.counter-one__single-inner .icon span {
+.counter-one__single-inner .icon span,
+.counter-one__single-inner .icon img {
     position: relative;
     display: inline-block;
     transition-delay: 0.1s;
     transition: all 500ms ease;
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
 }
 
-.counter-one__single:hover .counter-one__single-inner .icon span {
+.counter-one__single:hover .counter-one__single-inner .icon span,
+.counter-one__single:hover .counter-one__single-inner .icon img {
     transform: rotateY(180deg);
     transition-delay: 0.1s;
 }
@@ -222,7 +235,13 @@ Counter Two
 }
 
 .counter-one--two .counter-one__single-inner .content-box::before {
-    display: none;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    bottom: 8px;
+    width: 2px;
+    background: #ecedef;
+    content: "";
 }
 
 .counter-one--two .counter-one__single-inner .content-box .count-text-box {
@@ -309,7 +328,13 @@ Counter Three
 }
 
 .counter-one--three .counter-one__single-inner .content-box::before {
-    background: rgba(var(--logistiq-white-rgb), 0.15);
+    position: absolute;
+    top: 4px;
+    left: 0;
+    bottom: 8px;
+    width: 2px;
+    background: #ecedef;
+    content: "";
 }
 
 .counter-one--three .counter-one__single-inner .content-box .count-text-box h3 {

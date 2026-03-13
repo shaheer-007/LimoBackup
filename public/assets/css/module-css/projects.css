@@ -7,7 +7,7 @@ Project One
     position: relative;
     display: block;
     background: var(--logistiq-white);
-    padding: 120px 0px 150px;
+    padding: 100px 0px 100px;
     z-index: 1;
 }
 
@@ -35,6 +35,15 @@ Project One
     position: relative;
     display: block;
     margin-bottom: 30px;
+    background: var(--logistiq-white);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.05);
+    transition: all 400ms ease;
+    overflow: hidden;
+}
+
+.project-one__single:hover {
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.08);
 }
 
 .project-one__single-img {
@@ -62,50 +71,27 @@ Project One
 
 .project-one__overlay-content {
     position: absolute;
-    left: 30px;
-    bottom: 30px;
-    right: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-left: 5px solid var(--logistiq-base);
-    padding: 9px 20px 12px;
-    padding-right: 0px;
-    -webkit-transform: perspective(400px) rotateX(35deg) scaleY(0.3);
-    -ms-transform: perspective(400px) rotateX(35deg) scaleY(0.3);
-    transform: perspective(400px) rotateX(35deg) scaleY(0.3);
-    -webkit-transform-origin: center;
-    -ms-transform-origin: center;
-    transform-origin: center;
-    transition-timing-function: ease-in-out;
-    transition-duration: .5s;
-    transition-property: all;
+    left: 15px;
+    bottom: 0px;
+    right: 15px;
+    display: block;
+    background: var(--logistiq-white);
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform: translateY(100%);
+    transition: all 500ms ease;
     opacity: 0;
     z-index: 3;
+    box-shadow: 0px -5px 20px rgba(0, 0, 0, 0.05);
 }
 
 .project-one__single:hover .project-one__overlay-content {
-    -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
-    -ms-transform: perspective(400px) rotateX(0deg) scaleY(1.0);
-    transform: perspective(400px) rotateX(0deg) scaleY(1.0);
-    transition-timing-function: ease-in-out;
-    transition-duration: .5s;
-    transition-property: all;
+    transform: translateY(0%);
     opacity: 1;
 }
 
-.project-one__overlay-content::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 20px;
-    background: var(--logistiq-white);
-    border-top-right-radius: 42px;
-    border-bottom-right-radius: 42px;
-    content: "";
-    z-index: -1;
-}
+/* Removed the pseudo-element since we have a proper background now */
 
 .project-one__overlay-content .text-box {
     position: relative;
@@ -116,51 +102,16 @@ Project One
     color: var(--logistiq-base);
 }
 
-.project-one__overlay-content .text-box h2 {
-    font-size: 24px;
-    line-height: 32px;
+.project-one__single .project-one__single-img h3 {
+    padding: 20px 20px 0px;
+    font-size: 22px;
     font-weight: 700;
-    text-transform: capitalize;
-    margin-top: 5px;
 }
 
-.project-one__overlay-content .text-box h2 a {
-    color: var(--logistiq-black);
-}
-
-.project-one__overlay-content .text-box h2 a:hover {
-    color: var(--logistiq-base);
-}
-
-.project-one__overlay-content .icon {
-    position: relative;
-    display: block;
-}
-
-.project-one__overlay-content .icon a {
-    position: relative;
+.project-one__single .project-one__single-img .btn-box {
+    padding: 15px 20px 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background: var(--logistiq-base);
-}
-
-.project-one__overlay-content .icon a span {
-    position: relative;
-    display: inline-block;
-    line-height: 0;
-}
-
-.project-one__overlay-content .icon a span::before {
-    position: relative;
-    display: inline-block;
-    color: var(--logistiq-white);
-    font-size: 15px;
-    font-weight: 700;
+    gap: 10px;
 }
 
 /***

@@ -152,7 +152,8 @@ Why Choose One
 }
 
 .why-choose-one__form .input-box input[type="text"],
-.why-choose-one__form .input-box input[type="email"] {
+.why-choose-one__form .input-box input[type="email"],
+.why-choose-one__form .input-box input[type="tel"] {
     position: relative;
     display: block;
     height: 50px;

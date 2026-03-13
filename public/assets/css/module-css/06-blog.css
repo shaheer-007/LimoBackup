@@ -215,7 +215,7 @@ Blog Two
 .blog-one--two {
     position: relative;
     display: block;
-    padding: 120px 0px 90px;
+    padding: 0px 0px 90px;
     z-index: 1;
 }
 
@@ -229,7 +229,7 @@ Blog Three
     position: relative;
     display: block;
     background: var(--logistiq-white);
-    padding: 120px 0px 90px;
+    /* padding: 0px 0px 90px; */
     z-index: 1;
 }
 

@@ -10,6 +10,14 @@ Service One
     z-index: 1;
 }
 
+.service-one .sec-title {
+    margin-bottom: 50px;
+}
+
+.service-one .sec-title__text p {
+    margin-top: 15px;
+}
+
 .service-one__pattern {
     position: absolute;
     top: 0;
@@ -135,6 +143,18 @@ Service One
     margin: 0;
 }
 
+.service-one__single-content p.fleet-specs {
+    font-weight: 700;
+    color: var(--logistiq-black);
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: var(--logistiq-gray-bg);
+    padding: 5px 12px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
 .service-one__single-content .btn-box {
     position: relative;
     display: block;
@@ -226,9 +246,20 @@ Service Two
     z-index: 1;
 }
 
+.service-two .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-two .row > div {
+    display: flex;
+}
+
 .service-two__single {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .service-two__single-img {
@@ -277,7 +308,9 @@ Service Two
 
 .service-two__single-content {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     padding-top: 40px;
     margin-top: -245px;
     margin-left: 60px;
@@ -357,7 +390,10 @@ Service Two
 
 .service-two__single-content-inner {
     position: relative;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
     background: var(--logistiq-white);
     padding: 58px 40px 37px;
     z-index: 1;
@@ -412,21 +448,91 @@ Service Two
     top: 2px;
 }
 
-/***
-=============================================
-Service One Service
-=============================================
-***/
 .service-one--service {
     position: relative;
     display: block;
     background: var(--logistiq-gray-bg);
-    padding-bottom: 150px;
+    padding-bottom: 120px;
+}
+
+.service-one--service .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-one--service .row > div {
+    display: flex;
 }
 
 .service-one--service .service-one__single {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     margin-bottom: 30px;
 }
+
+.service-one--service .service-one__single-inner {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.service-one--service .service-one__single-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-one--service .service-one__single-content .btn-box {
+    margin-top: 15px;
+}
+
+.service-one--service .service-one__single-img img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .service-one__single-inner {
+        margin-right: 15px;
+    }
+    .service-one__single-content {
+        margin-left: 20px;
+        padding: 30px 25px 30px;
+    }
+    .service-one__single-content h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .service-one__single .icon {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .service-one__single-inner {
+        margin-right: 10px;
+    }
+    .service-one__single-content {
+        margin-left: 15px;
+        padding: 25px 20px 25px;
+    }
+    .service-one__single-content h2 {
+        font-size: 19px;
+    }
+    .service-one__single .icon {
+        width: 60px;
+        height: 60px;
+    }
+    .service-one__single .icon span::before {
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
 
 /***
 =============================================
