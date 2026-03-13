@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/12-footer.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/13-page-header.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/cta.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/module-css/why-choose.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/feature.css') }}" />
     <!-- template styles -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
